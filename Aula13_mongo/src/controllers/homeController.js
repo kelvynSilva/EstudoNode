@@ -1,6 +1,6 @@
 const HomeModel = require('../models/HomeModel');
 
-HomeModel.find({
+HomeModel.creat({
     titulo: 'outra coisa',
     decricao: 'criando outra coisa'
 })
